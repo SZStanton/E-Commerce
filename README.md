@@ -31,9 +31,3 @@ HTML5, CSS3, JavaScript (Web Storage APIs)
    ```
 
 2. Open `index.html` in your browser — no build step or dependencies required
-
-## Future Improvements
-
-- Persistent cart across page reloads
-- Product filtering/search
-- Checkout flow simulation

@@ -8,7 +8,7 @@ https://szstanton.github.io/E-Commerce/
 
 ## Screenshots
 
-<img src="screenshots/e-commerce.png" width="500" alt="E-Commerce storefront"/>
+<img src="screenshots/e-commerce.PNG" width="500" alt="E-Commerce storefront"/>
 
 ## Features
 

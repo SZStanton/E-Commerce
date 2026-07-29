@@ -1,10 +1,39 @@
-# E-Commerce - Web Storage
-The goal of this project was to gain a deeper understanding of how web applications store data in the browser and how different storage mechanisms behave across sessions and page refreshes.
+# E-Commerce (Web Storage Demo)
 
-To explore this, I built a simple e-commerce webpage that shows how different types of browser storage keeps data after refresh.
+A small storefront demo focused on browser data persistence — saving user preferences and cart state without a backend. This project demonstrates working with cache, cookies, session storage, and local storage in vanilla JavaScript.
 
-It contains the following:
-- Usage of *Cache* storage
-- Usage of *Cookies*
-- Usage of *Session Storage*
-- Usage of *Local Storage*
+## Live Demo
+
+https://szstanton.github.io/E-Commerce/
+
+## Screenshots
+
+<img src="screenshots/e-commerce.png" width="500" alt="E-Commerce storefront"/>
+
+## Features
+
+- Save and persist a username across sessions using local storage
+- Add products to cart with a live running total
+- Font preference selector, saved via local storage
+- Reset all saved preferences with one action
+- Uses cached resources for faster loading
+
+## Tech Stack
+
+HTML5, CSS3, JavaScript (Web Storage APIs)
+
+## Installation
+
+1. Clone the repository
+
+   ```bash
+   git clone https://github.com/SZStanton/E-Commerce
+   ```
+
+2. Open `index.html` in your browser — no build step or dependencies required
+
+## Future Improvements
+
+- Persistent cart across page reloads
+- Product filtering/search
+- Checkout flow simulation
